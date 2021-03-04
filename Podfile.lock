@@ -1,3 +1,24 @@
-PODFILE CHECKSUM: 052563b7d3f68996128e6e7c68e8a7d04b4da44b
+PODS:
+  - Alamofire (5.4.1)
+  - RxSwift (5.1.1)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.2)
+  - RxSwift (~> 5)
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - RxSwift
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: 57db3d6fb97d866d46695d3267e0e4ecaa35b043
 
 COCOAPODS: 1.10.0
