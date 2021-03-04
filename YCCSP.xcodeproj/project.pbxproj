@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		7F131BFD0DD4C4389A03D75E /* Pods_YCCSP_YCCSPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C8E17B9E34AF65D34DCBEAC /* Pods_YCCSP_YCCSPUITests.framework */; };
 		9C95DEE64B5F10636A9E2C37 /* libPods-YCCSP-UAT.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CD19374C38BBB3CE4C2AFB9 /* libPods-YCCSP-UAT.a */; };
-		B9CF2AEF75B471C0BD59F665 /* Pods_YCCSP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F752DE854E16508E7A907B71 /* Pods_YCCSP.framework */; };
+		B9CF2AEF75B471C0BD59F665 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		BB5DB38825F0AD4C004DD7F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5DB38725F0AD4C004DD7F4 /* AppDelegate.swift */; };
 		BB5DB38A25F0AD4C004DD7F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5DB38925F0AD4C004DD7F4 /* SceneDelegate.swift */; };
 		BB5DB38C25F0AD4C004DD7F4 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5DB38B25F0AD4C004DD7F4 /* HomeVC.swift */; };
@@ -115,7 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9CF2AEF75B471C0BD59F665 /* Pods_YCCSP.framework in Frameworks */,
+				B9CF2AEF75B471C0BD59F665 /* (null) in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,7 +202,6 @@
 				BBA898AB25F0E7A800699308 /* Storyboard */,
 				BBA898AC25F0E7BE00699308 /* Controller */,
 				BBA898AA25F0E78700699308 /* ViewModel */,
-				BBA898A925F0E77A00699308 /* View */,
 				BBA898A825F0E77500699308 /* Model */,
 				BBA898A725F0E76A00699308 /* Manager */,
 				BB5DB38725F0AD4C004DD7F4 /* AppDelegate.swift */,
@@ -246,13 +245,6 @@
 				BBA898E725F1061B00699308 /* SPPerson.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		BBA898A925F0E77A00699308 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		BBA898AA25F0E78700699308 /* ViewModel */ = {
