@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7F131BFD0DD4C4389A03D75E /* Pods_YCCSP_YCCSPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C8E17B9E34AF65D34DCBEAC /* Pods_YCCSP_YCCSPUITests.framework */; };
+		9C95DEE64B5F10636A9E2C37 /* libPods-YCCSP-UAT.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CD19374C38BBB3CE4C2AFB9 /* libPods-YCCSP-UAT.a */; };
 		B9CF2AEF75B471C0BD59F665 /* Pods_YCCSP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F752DE854E16508E7A907B71 /* Pods_YCCSP.framework */; };
 		BB5DB38825F0AD4C004DD7F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5DB38725F0AD4C004DD7F4 /* AppDelegate.swift */; };
 		BB5DB38A25F0AD4C004DD7F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5DB38925F0AD4C004DD7F4 /* SceneDelegate.swift */; };
@@ -28,7 +29,6 @@
 		BBA898FA25F10DB400699308 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5DB38725F0AD4C004DD7F4 /* AppDelegate.swift */; };
 		BBA898FB25F10DB400699308 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5DB38925F0AD4C004DD7F4 /* SceneDelegate.swift */; };
 		BBA898FC25F10DB400699308 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA898E125F1055200699308 /* Constants.swift */; };
-		BBA898FE25F10DB400699308 /* Pods_YCCSP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F752DE854E16508E7A907B71 /* Pods_YCCSP.framework */; };
 		BBA8990025F10DB400699308 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB5DB39225F0AD4D004DD7F4 /* LaunchScreen.storyboard */; };
 		BBA8990125F10DB400699308 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB5DB39025F0AD4D004DD7F4 /* Assets.xcassets */; };
 		BBA8990225F10DB400699308 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB5DB38D25F0AD4C004DD7F4 /* Main.storyboard */; };
@@ -76,11 +76,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1CD19374C38BBB3CE4C2AFB9 /* libPods-YCCSP-UAT.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YCCSP-UAT.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2600822369CCED40BFA48C50 /* Pods-YCCSPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCCSPTests.debug.xcconfig"; path = "Target Support Files/Pods-YCCSPTests/Pods-YCCSPTests.debug.xcconfig"; sourceTree = "<group>"; };
+		30E6B881677B13142E6818AF /* Pods-YCCSP-UAT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCCSP-UAT.release.xcconfig"; path = "Target Support Files/Pods-YCCSP-UAT/Pods-YCCSP-UAT.release.xcconfig"; sourceTree = "<group>"; };
 		3D95ECAB667E6D182F95BE04 /* Pods_YCCSPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YCCSPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		575C64BF31F66D49A422D070 /* Pods-YCCSPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCCSPTests.release.xcconfig"; path = "Target Support Files/Pods-YCCSPTests/Pods-YCCSPTests.release.xcconfig"; sourceTree = "<group>"; };
 		5C8E17B9E34AF65D34DCBEAC /* Pods_YCCSP_YCCSPUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YCCSP_YCCSPUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60C1E38EAFB124526AC6BB8E /* Pods-YCCSP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCCSP.debug.xcconfig"; path = "Target Support Files/Pods-YCCSP/Pods-YCCSP.debug.xcconfig"; sourceTree = "<group>"; };
+		70F104AD547B5C605B5BA303 /* Pods-YCCSP-UAT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCCSP-UAT.debug.xcconfig"; path = "Target Support Files/Pods-YCCSP-UAT/Pods-YCCSP-UAT.debug.xcconfig"; sourceTree = "<group>"; };
 		8613923FA1999E11ED56F197 /* Pods-YCCSP-YCCSPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCCSP-YCCSPUITests.release.xcconfig"; path = "Target Support Files/Pods-YCCSP-YCCSPUITests/Pods-YCCSP-YCCSPUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A5F315192CB9E2432F286DBB /* Pods-YCCSP-YCCSPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCCSP-YCCSPUITests.debug.xcconfig"; path = "Target Support Files/Pods-YCCSP-YCCSPUITests/Pods-YCCSP-YCCSPUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BB5DB38425F0AD4C004DD7F4 /* YCCSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YCCSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,7 +107,6 @@
 		BBA898E725F1061B00699308 /* SPPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPPerson.swift; sourceTree = "<group>"; };
 		BBA8990825F10DB400699308 /* YCCSP-UAT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YCCSP-UAT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBA8990925F10DB500699308 /* YCCSP UAT-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "YCCSP UAT-Info.plist"; path = "/Users/zayyarhtun/Desktop/Mobdio/iOS Side Projects/YCCSP/YCCSP UAT-Info.plist"; sourceTree = "<absolute>"; };
-		F752DE854E16508E7A907B71 /* Pods_YCCSP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YCCSP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDD532A1437F25F925ED46E4 /* Pods-YCCSP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCCSP.release.xcconfig"; path = "Target Support Files/Pods-YCCSP/Pods-YCCSP.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,7 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBA898FE25F10DB400699308 /* Pods_YCCSP.framework in Frameworks */,
+				9C95DEE64B5F10636A9E2C37 /* libPods-YCCSP-UAT.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,9 +150,9 @@
 			isa = PBXGroup;
 			children = (
 				BBA8989525F0E43D00699308 /* MDCore.framework */,
-				F752DE854E16508E7A907B71 /* Pods_YCCSP.framework */,
 				5C8E17B9E34AF65D34DCBEAC /* Pods_YCCSP_YCCSPUITests.framework */,
 				3D95ECAB667E6D182F95BE04 /* Pods_YCCSPTests.framework */,
+				1CD19374C38BBB3CE4C2AFB9 /* libPods-YCCSP-UAT.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -164,6 +166,8 @@
 				8613923FA1999E11ED56F197 /* Pods-YCCSP-YCCSPUITests.release.xcconfig */,
 				2600822369CCED40BFA48C50 /* Pods-YCCSPTests.debug.xcconfig */,
 				575C64BF31F66D49A422D070 /* Pods-YCCSPTests.release.xcconfig */,
+				70F104AD547B5C605B5BA303 /* Pods-YCCSP-UAT.debug.xcconfig */,
+				30E6B881677B13142E6818AF /* Pods-YCCSP-UAT.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -346,7 +350,6 @@
 				BBA898F525F10DB400699308 /* Sources */,
 				BBA898FD25F10DB400699308 /* Frameworks */,
 				BBA898FF25F10DB400699308 /* Resources */,
-				BBA8990325F10DB400699308 /* [CP] Embed Pods Frameworks */,
 				BBA8990425F10DB400699308 /* Embed Frameworks */,
 			);
 			buildRules = (
@@ -532,28 +535,11 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-YCCSP-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-YCCSP-UAT-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BBA8990325F10DB400699308 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YCCSP/Pods-YCCSP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YCCSP/Pods-YCCSP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YCCSP/Pods-YCCSP-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C45B7C7647C70D2A4CB007BC /* [CP] Check Pods Manifest.lock */ = {
@@ -910,7 +896,7 @@
 		};
 		BBA8990625F10DB400699308 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60C1E38EAFB124526AC6BB8E /* Pods-YCCSP.debug.xcconfig */;
+			baseConfigurationReference = 70F104AD547B5C605B5BA303 /* Pods-YCCSP-UAT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -935,7 +921,7 @@
 		};
 		BBA8990725F10DB400699308 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FDD532A1437F25F925ED46E4 /* Pods-YCCSP.release.xcconfig */;
+			baseConfigurationReference = 30E6B881677B13142E6818AF /* Pods-YCCSP-UAT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

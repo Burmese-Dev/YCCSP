@@ -22,3 +22,7 @@ target 'YCCSP' do
   end
 
 end
+
+target 'YCCSP-UAT' do
+   yccsp_pods
+end
